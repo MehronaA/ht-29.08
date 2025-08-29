@@ -9,4 +9,5 @@ public interface ICourseService
     int CreateCourse(Course course);
     int UpdateCourse(Course course);
     int DeleteCourse(int id);
+    List<Course> GetCoursesWithoutGroups();
 }
